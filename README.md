@@ -284,42 +284,6 @@ vulnerability → cve, firewall, flaw
 
 **Raison:** Visualisation clusters locaux optimale pour interprétation
 
----
-
-## ⚠️ Limitations Identifiées
-
-### 1. Taille Corpus (30 articles)
-**Impact:** Petit pour statistiques robustes, analogies limitées
-
-**Solutions:**
-- Augmenter à 100+ articles
-- Réduire min_count à 1
-- Augmenter vector_size à 300-500
-
-### 2. Sources JavaScript (3 sources)
-**Impact:** 10% corpus potentiel non collecté
-
-**Solutions:**
-- Implémenter Selenium
-- Ajouter Playwright
-- Utiliser puppeteer
-
-### 3. Termes Rares
-**Impact:** aws, encrypt trop peu contexte
-
-**Solutions:**
-- Augmenter corpusf
-- Réduire seuils filtrage
-- FastText pour morphologie
-
-### 4. Taux Succès Analogies (50%)
-**Impact:** Petit corpus limite relations sémantiques
-
-**Solutions:**
-- Augmenter articles
-- Tester CBOW
-- Fine-tuning domaine-spécifique
-
 
 ---
 
