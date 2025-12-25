@@ -1,0 +1,410 @@
+{
+  "similar_words": {
+    "ransomware": [
+      [
+        "clop",
+        0.9892358779907227
+      ],
+      [
+        "harvard",
+        0.988966166973114
+      ],
+      [
+        "oracle",
+        0.9880689382553101
+      ],
+      [
+        "pennsylvania",
+        0.9851727485656738
+      ],
+      [
+        "hack",
+        0.9845597743988037
+      ],
+      [
+        "extortion",
+        0.9843335151672363
+      ],
+      [
+        "theft",
+        0.9832050204277039
+      ],
+      [
+        "affecting",
+        0.9797730445861816
+      ]
+    ],
+    "cloud": [
+      [
+        "european",
+        0.998794674873352
+      ],
+      [
+        "test",
+        0.9987772107124329
+      ],
+      [
+        "distributed",
+        0.9987608790397644
+      ],
+      [
+        "license",
+        0.9987525343894958
+      ],
+      [
+        "soon",
+        0.998738169670105
+      ],
+      [
+        "internal",
+        0.9987233877182007
+      ],
+      [
+        "deal",
+        0.9987031817436218
+      ],
+      [
+        "algorithm",
+        0.9987019896507263
+      ]
+    ],
+    "security": [
+      [
+        "used",
+        0.9898319244384766
+      ],
+      [
+        "year",
+        0.98931485414505
+      ],
+      [
+        "number",
+        0.987964928150177
+      ],
+      [
+        "including",
+        0.9870604872703552
+      ],
+      [
+        "account",
+        0.9867433309555054
+      ],
+      [
+        "code",
+        0.986150324344635
+      ],
+      [
+        "access",
+        0.985955536365509
+      ],
+      [
+        "update",
+        0.9858118891716003
+      ]
+    ],
+    "attack": [
+      [
+        "ransomware",
+        0.9785321950912476
+      ],
+      [
+        "oracle",
+        0.9691727161407471
+      ],
+      [
+        "clop",
+        0.9688258767127991
+      ],
+      [
+        "harvard",
+        0.9675443768501282
+      ],
+      [
+        "zeroday",
+        0.9624510407447815
+      ],
+      [
+        "stolen",
+        0.9613028168678284
+      ],
+      [
+        "critical",
+        0.9598134160041809
+      ],
+      [
+        "watchguard",
+        0.9592145681381226
+      ]
+    ],
+    "data": [
+      [
+        "individual",
+        0.9759955406188965
+      ],
+      [
+        "breach",
+        0.974767804145813
+      ],
+      [
+        "million",
+        0.9696055054664612
+      ],
+      [
+        "nearly",
+        0.9671387076377869
+      ],
+      [
+        "oracle",
+        0.9618397951126099
+      ],
+      [
+        "hack",
+        0.947012186050415
+      ],
+      [
+        "pennsylvania",
+        0.9393478631973267
+      ],
+      [
+        "ransomware",
+        0.9391545057296753
+      ]
+    ],
+    "microsoft": [
+      [
+        "update",
+        0.9917563199996948
+      ],
+      [
+        "bug",
+        0.9895100593566895
+      ],
+      [
+        "code",
+        0.9873737692832947
+      ],
+      [
+        "office",
+        0.9863219857215881
+      ],
+      [
+        "firebox",
+        0.9859616756439209
+      ],
+      [
+        "used",
+        0.9842193722724915
+      ],
+      [
+        "cve",
+        0.9841592907905579
+      ],
+      [
+        "security",
+        0.9836678504943848
+      ]
+    ],
+    "vulnerability": [
+      [
+        "cve",
+        0.9915518164634705
+      ],
+      [
+        "firewall",
+        0.9893707633018494
+      ],
+      [
+        "flaw",
+        0.9881026744842529
+      ],
+      [
+        "exploited",
+        0.9880101084709167
+      ],
+      [
+        "firebox",
+        0.9877825975418091
+      ],
+      [
+        "vulnerable",
+        0.9873237013816833
+      ],
+      [
+        "bug",
+        0.9872046709060669
+      ],
+      [
+        "code",
+        0.9853804111480713
+      ]
+    ]
+  },
+  "analogies": [
+    {
+      "analogy": "aws - cloud ≈ microsoft - ?",
+      "expected": "azure",
+      "predicted": [],
+      "scores": []
+    },
+    {
+      "analogy": "encrypt - ransomware ≈ malware - ?",
+      "expected": "virus",
+      "predicted": [],
+      "scores": []
+    },
+    {
+      "analogy": "internet - network ≈ system - ?",
+      "expected": "computer",
+      "predicted": [
+        "recent",
+        "database",
+        "firm"
+      ],
+      "scores": [
+        0.989622950553894,
+        0.989036500453949,
+        0.9889272451400757
+      ]
+    },
+    {
+      "analogy": "sql - database ≈ file - ?",
+      "expected": "storage",
+      "predicted": [
+        "github",
+        "script",
+        "supplychain"
+      ],
+      "scores": [
+        0.9964514970779419,
+        0.9962970018386841,
+        0.9960901737213135
+      ]
+    }
+  ],
+  "vocabulary": {
+    "vocabulary_size": 2159,
+    "vector_size": 200,
+    "top_words": [
+      {
+        "word": "data",
+        "frequency_rank": 0
+      },
+      {
+        "word": "said",
+        "frequency_rank": 1
+      },
+      {
+        "word": "security",
+        "frequency_rank": 2
+      },
+      {
+        "word": "company",
+        "frequency_rank": 3
+      },
+      {
+        "word": "iam",
+        "frequency_rank": 4
+      },
+      {
+        "word": "service",
+        "frequency_rank": 5
+      },
+      {
+        "word": "attack",
+        "frequency_rank": 6
+      },
+      {
+        "word": "like",
+        "frequency_rank": 7
+      },
+      {
+        "word": "device",
+        "frequency_rank": 8
+      },
+      {
+        "word": "also",
+        "frequency_rank": 9
+      },
+      {
+        "word": "user",
+        "frequency_rank": 10
+      },
+      {
+        "word": "domain",
+        "frequency_rank": 11
+      },
+      {
+        "word": "window",
+        "frequency_rank": 12
+      },
+      {
+        "word": "system",
+        "frequency_rank": 13
+      },
+      {
+        "word": "including",
+        "frequency_rank": 14
+      },
+      {
+        "word": "university",
+        "frequency_rank": 15
+      },
+      {
+        "word": "website",
+        "frequency_rank": 16
+      },
+      {
+        "word": "breach",
+        "frequency_rank": 17
+      },
+      {
+        "word": "customer",
+        "frequency_rank": 18
+      },
+      {
+        "word": "new",
+        "frequency_rank": 19
+      },
+      {
+        "word": "information",
+        "frequency_rank": 20
+      },
+      {
+        "word": "million",
+        "frequency_rank": 21
+      },
+      {
+        "word": "year",
+        "frequency_rank": 22
+      },
+      {
+        "word": "cve",
+        "frequency_rank": 23
+      },
+      {
+        "word": "one",
+        "frequency_rank": 24
+      },
+      {
+        "word": "access",
+        "frequency_rank": 25
+      },
+      {
+        "word": "network",
+        "frequency_rank": 26
+      },
+      {
+        "word": "guide",
+        "frequency_rank": 27
+      },
+      {
+        "word": "used",
+        "frequency_rank": 28
+      },
+      {
+        "word": "microsoft",
+        "frequency_rank": 29
+      }
+    ]
+  }
+}
