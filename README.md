@@ -320,29 +320,6 @@ vulnerability → cve, firewall, flaw
 - Tester CBOW
 - Fine-tuning domaine-spécifique
 
----
-
-## 🚀 Recommandations Futures
-
-### Court Terme (Immédiat)
-- [ ] Augmenter corpus → 100 articles
-- [ ] Ajuster TF-IDF: min_df=1
-- [ ] Tester Word2Vec: vector_size=300-500
-- [ ] Documenter résultats baselines
-
-### Moyen Terme (1-2 mois)
-- [ ] Implémenter Selenium scraping
-- [ ] Ajouter 3 nouvelles sources web
-- [ ] Pipeline orchestration (Airflow)
-- [ ] Tests unitaires complets
-- [ ] Validation cross-validation
-
-### Long Terme (3-6 mois)
-- [ ] Modèles contextuels (BERT, RoBERTa)
-- [ ] Fine-tuning domaine cybersecurité
-- [ ] API REST déploiement
-- [ ] Dashboard visualisation interactive
-- [ ] Monitoring production
 
 ---
 
@@ -364,19 +341,7 @@ vulnerability → cve, firewall, flaw
 
 ---
 
-## 📖 Documentation
 
-### Fichiers Rapport
-- **rapport_final.pdf** (152 KB) - Principal, compilé ✓
-- **rapport.pdf** (236 KB) - Complet, détaillé
-- **SYNTHESE.md** - Vue d'ensemble rapide
-- **README.md** - Guide rapide rapport
-
-### README par Phase
-- `1.Collecte_de_Donnees/README.md`
-- `2.Pretraitement_et_Nettoyage_du_Texte/README.md`
-- `3.Analyse_de_Frequence_et_Pondération/README.md`
-- `4.Modelisation_Semantique/README.md`
 
 ---
 
